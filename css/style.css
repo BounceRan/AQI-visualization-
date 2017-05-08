@@ -1,0 +1,222 @@
+	body {
+				background-color: blue;
+				margin: 0px;
+				overflow: hidden;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				font-weight: bold;
+				text-align:center;
+              
+			}
+		
+			#info {
+			
+				position: absolute;
+				top: 30%; 
+                width:100%;
+				padding: 5px;
+				z-index: 100;
+			}
+
+
+.headText {
+
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  cursor:default;
+    color:white;
+    
+    
+    font-size:15px;
+    width:350px;
+  
+     -webkit-transition:width 2s, height 2s ,  -webkit-transform 3s;
+    transition:width 2s, height 2s ,  color 2s, transform 3s;
+    outline: none;
+      text-shadow: 2px 2px  13px grey;
+   
+
+}
+
+
+.headText:hover{
+    margin-top: 50;
+margin-left: auto;
+    margin-right: auto;
+ outline: none;
+    text-decoration: none;
+   color:black;
+ cursor:hand;
+    width:350px;
+    outline:none;
+   text-shadow: 2px 2px  13px grey;
+    
+}
+
+
+.currentPage {
+
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  cursor:default;
+    color:white;
+    
+    
+    font-size:20px;
+    width:200px;
+  
+     -webkit-transition:width 2s, height 2s ,  -webkit-transform 3s;
+    transition:width 2s, height 2s ,  color 2s, transform 3s;
+    outline: none;
+      text-shadow: 2px 2px  13px grey;
+    
+    
+
+}
+
+.currentPage:hover{
+margin-left: auto;
+    margin-right: auto;
+ outline: none;
+    text-decoration: none;
+   color:white;
+ cursor:hand;
+    width:200px;
+    outline:none;
+   text-shadow: 2px 2px  13px grey;
+    
+}
+
+
+.hiddentext{
+      text-shadow: 2px 2px  13px grey;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(255,255,255,.1);
+    border-width: 0px;
+    display: block;
+    width:150px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 30px;
+    -webkit-transition:width 2s, height 2s ,  -webkit-transform 3s;
+    transition:width 2s, height 2s ,  color 2s, transform 3s;
+    outline: none;
+}
+.hiddentext:hover{
+    color:white!important;
+ margin-top: 30px;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:hand;
+    outline: none;
+    text-decoration: none;
+text-shadow:2px 2px  13px grey;
+}
+
+.hiddenLine{
+     display: block;
+    text-align: center;
+    margin-left: auto  ;
+    margin-right: auto;
+    color: rgba(255,255,255,.001);
+    border-width: 0px;
+    cursor:hand;
+    width:350px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    -webkit-transition:width 2s, height 2s ,  -webkit-transform 3s;
+    transition:width 2s, height 2s ,  color 2s, transform 3s , text-shadow 3s;
+    outline: none;
+}
+
+.hiddenLine:hover{
+    display: block;
+    color:white!important;
+ margin-top: 30px;
+    margin-bottom: 30px;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor:hand;
+    outline: none;
+    text-decoration: none;
+text-shadow:2px 2px  13px grey;
+    
+}
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; 
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+    
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
